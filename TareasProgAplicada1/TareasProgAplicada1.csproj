@@ -59,10 +59,18 @@
     <Compile Include="Tarea1\Divisas.cs" />
     <Compile Include="Tarea1\Nombre.cs" />
     <Compile Include="Tarea1\Perimetro.cs" />
-    <Compile Include="Tarea1\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarea1\Semana.cs" />
     <Compile Include="Tarea1\TablaMultiplicar.cs" />
+    <Compile Include="Tarea2\Agenda.cs" />
+    <Compile Include="Tarea2\Cadena.cs" />
+    <Compile Include="Tarea2\Colegio.cs" />
+    <Compile Include="Tarea2\Diccionario.cs" />
+    <Compile Include="Tarea2\Factorial.cs" />
+    <Compile Include="Tarea2\FormatoFechaYHora.cs" />
+    <Compile Include="Tarea2\OrdenarCadenas.cs" />
+    <Compile Include="Tarea2\SalonClases.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -73,5 +81,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
