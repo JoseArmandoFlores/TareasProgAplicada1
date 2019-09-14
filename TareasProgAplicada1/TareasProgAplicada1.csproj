@@ -71,6 +71,45 @@
     <Compile Include="Tarea2\FormatoFechaYHora.cs" />
     <Compile Include="Tarea2\OrdenarCadenas.cs" />
     <Compile Include="Tarea2\SalonClases.cs" />
+    <Compile Include="Tarea3\EstudiantesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\EstudiantesForm.Designer.cs">
+      <DependentUpon>EstudiantesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\EstructurasEnlazadasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\EstructurasEnlazadasForm.Designer.cs">
+      <DependentUpon>EstructurasEnlazadasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\EstructuraTiendaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\EstructuraTiendaForm.Designer.cs">
+      <DependentUpon>EstructuraTiendaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\Estudiantes.cs" />
+    <Compile Include="Tarea3\FactorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\FactorialForm.Designer.cs">
+      <DependentUpon>FactorialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\Poligono.cs" />
+    <Compile Include="Tarea3\Tienda.cs" />
+    <Compile Include="Tarea3\TiposDeNeumaticosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\TiposDeNeumaticosForm.Designer.cs">
+      <DependentUpon>TiposDeNeumaticosForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,6 +118,24 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\EstudiantesForm.resx">
+      <DependentUpon>EstudiantesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\EstructurasEnlazadasForm.resx">
+      <DependentUpon>EstructurasEnlazadasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\EstructuraTiendaForm.resx">
+      <DependentUpon>EstructuraTiendaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\FactorialForm.resx">
+      <DependentUpon>FactorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\TiposDeNeumaticosForm.resx">
+      <DependentUpon>TiposDeNeumaticosForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

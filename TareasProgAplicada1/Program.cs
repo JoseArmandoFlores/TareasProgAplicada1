@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using TareasProgAplicada1.Tarea1;
 using TareasProgAplicada1.Tarea2;
+using TareasProgAplicada1.Tarea3;
 
 namespace TareasProgAplicada1
 {
@@ -14,7 +16,7 @@ namespace TareasProgAplicada1
             do{
                 Console.Clear();
                 Console.WriteLine("\t\t\tEjercicios del libro");
-                Console.WriteLine("\n1.Tarea I\n2.Tarea II\n3.Salir");
+                Console.WriteLine("\n1.Tarea I\n2.Tarea II\n3.Tarea III\n4.Salir");
 
                 Console.Write("\nEscriba el numero de la opcion: ");
                 op = int.Parse(Console.ReadLine());
@@ -28,9 +30,12 @@ namespace TareasProgAplicada1
                         Tarea2();//Funcion que contiene el menu de todos los programas de la tarea 2
                         break;
                     case 3:
+                        Application.EnableVisualStyles();
+                        Application.SetCompatibleTextRenderingDefault(false);
+                        Application.Run(new MainForm());
                         break;
                 }
-            } while (op != 3);
+            } while (op != 4);
         }
 
         public static void Tarea2(){
@@ -168,6 +173,7 @@ namespace TareasProgAplicada1
                 }
                 Console.ReadKey();
             } while (opcion != 13);
+
         }
     }
 }
